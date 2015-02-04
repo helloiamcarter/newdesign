@@ -1,0 +1,164 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/dPJ5r9gl3kK6ijoeP1IRsvY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/EsvMC5un3kjyUhB9ZEPPwg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/UyBMtLsHKBKXelqf4x7VRQ.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+body {
+	margin: 0;
+	background-image: url('9.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Lato', 'Arial', sans-serif;
+}
+h2 {
+	width: 100%;
+	text-align: center;
+	color: #808080;
+	text-transform: uppercase;
+	font-size: 26px;
+	letter-spacing: 3px;
+	margin-bottom: 2%;
+	font-weight: 400;
+}
+h2::after {
+	content: "";
+	margin: auto;
+	margin-top: 2%;
+	display: block;
+	width: 100px;
+	height: 57px;
+	background-image: url("swirl2.png");
+}
+p {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 2%;
+	color: #1f1f1f;
+}
+#black {
+	position: fixed;
+	background-color: #000000;
+	display: block;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	opacity: 0; /*.3*/
+}
+#header {
+	width: 100%;
+	margin: auto;
+	margin-bottom: 15%;
+}
+table {
+	background-color: white;
+	display: block;
+	width: 80%;
+	margin: auto;
+	border: none;
+	border-collapse: collapse;
+}
+#logo {
+	max-width: 50%;
+	margin-left: 25%;
+	margin-top: 10%;
+}
+#tree {
+	position: fixed;
+	top: 1%;
+	left: 44%;
+	max-width: 12%;
+	opacity: 0;
+}
+.thirds {
+	width: 85%;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 1%;
+}
+.left {
+	float: left;
+	text-align: left;
+}
+.center {
+	margin: auto;
+}
+.right {
+	float: right;
+	text-align: right;
+}
+.thirds a {
+	width: 32%;
+	display: inline-block;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 600;
+	transition: font-size .5s;
+	background-color: rgba(48, 48, 48, .3);
+	border-radius: 20px;
+	padding-top: .75%;
+	padding-bottom: .75%;
+	text-align: center;
+	transition: background-color .2s;
+}
+.thirds a:hover {
+	background-color: rgba(124, 130, 214, 0.5);
+}
+#first {
+	margin-top: 7%;
+}
+.cell-big {
+	width: 58%;
+	border: none;
+	padding: 0;
+}
+.cell-big:nth-child(even) {
+	text-align: right;
+}
+.cell-big img {
+	max-width: 100%;
+}
+.cell-small {
+	width: 42%;
+	border: none;
+	padding: 0;
+}
+@media all and (max-width: 1150px) and (min-width: 841px) {
+    .thirds a {
+        font-size: 17px;
+    }
+}
+
+@media all and (max-width: 840px) {
+	.thirds a {
+		font-size: 14px;
+	}
+}

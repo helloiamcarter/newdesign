@@ -21,6 +21,10 @@ body {
 	background-attachment: fixed;
 	font-family: 'Lato', 'Arial', sans-serif;
 }
+a {
+	color: #1E8519;
+	text-decoration: none;
+}
 #content {
 	min-height: 110%;
 	width: 75%;

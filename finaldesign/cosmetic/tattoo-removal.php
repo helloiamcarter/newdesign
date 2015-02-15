@@ -19,7 +19,7 @@
 			<table id="center">
 				<tr>
 					<td id="logopic">
-						<img src="/logo2.png" />
+						<a href="/"><img src="/logo2.png" alt="CanopyMD logo Loves Park dermatology" /></a>
 						<img src="/6.jpg" />
 					</td>
 				</tr>

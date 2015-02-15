@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fine Lip Lines - CanopyMD</title>
+
 <?php
 	$links = file_get_contents("../include.txt");
 	$includes = explode("~",$links);
@@ -13,7 +18,7 @@
 			<table id="center">
 				<tr>
 					<td id="logopic">
-						<img src="/logo2.png" />
+						<a href="/"><img src="/logo2.png" alt="CanopyMD logo Loves Park dermatology" /></a>
 						<img src="/6.jpg" />
 					</td>
 				</tr>

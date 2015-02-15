@@ -35,7 +35,7 @@ body {
 	margin-top: 7.5%;
 	padding-bottom: 5%;
 }
-h2 {
+h1 {
 	width: 100%;
 	text-align: center;
 	color: #808080;
@@ -45,7 +45,7 @@ h2 {
 	margin-bottom: 2%;
 	font-weight: 400;
 }
-h2::after {
+h1::after {
 	content: "";
 	margin: auto;
 	margin-top: 2%;

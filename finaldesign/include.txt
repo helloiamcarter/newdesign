@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href='/stylepage.css' rel='stylesheet' type='text/css' />	
+	</head>
+	<body>
+		<div id="black" data-0="opacity:0;" data-15p="opacity:.4;" ></div>
+		<div id="content">
+~
+		</div>
+	</body>
+</html>

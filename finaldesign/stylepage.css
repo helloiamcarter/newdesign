@@ -1,0 +1,100 @@
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v11/EsvMC5un3kjyUhB9ZEPPwg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/1YwB1sO8YE1Lyjf12WNiUA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+body {
+	margin: 0;
+	background-image: url('9.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Lato', 'Arial', sans-serif;
+}
+#content {
+	min-height: 110%;
+	width: 75%;
+	margin: auto;
+	background-color: #FFFFFF;
+	overflow: hidden;
+	padding-bottom: 5%;
+}
+#text {
+	width: 42.5%;
+	margin-left: 5%;
+	margin-top: 7.5%;
+	padding-bottom: 5%;
+}
+h2 {
+	width: 100%;
+	text-align: center;
+	color: #808080;
+	text-transform: uppercase;
+	font-size: 26px;
+	letter-spacing: 3px;
+	margin-bottom: 2%;
+	font-weight: 400;
+}
+h2::after {
+	content: "";
+	margin: auto;
+	margin-top: 2%;
+	display: block;
+	width: 100px;
+	height: 57px;
+	background-image: url("swirl2.png");
+}
+p {
+	font-size: 17px;
+	color: #4B4B4B;
+	line-height: 26px;
+	text-align: justify;
+}
+#black {
+	position: fixed;
+	top: 0;
+	background-color: #000000;
+	display: block;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	opacity: .3;
+}
+#logo {
+	max-width: 37%;
+	margin-left: 31.5%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	vertical-align: middle;
+}
+#logopic {
+}
+#logopic  * {
+	max-width: 100%;
+	margin-bottom: 3%;
+	width: 100%;
+}
+#center {
+	position: fixed;
+	top: 0;
+	left: 52%;
+	height: 100%;
+	width: 32%;
+}
+#tree {
+	position: fixed;
+	top: 1%;
+	left: 44%;
+	max-width: 12%;
+	opacity: 0;
+}
